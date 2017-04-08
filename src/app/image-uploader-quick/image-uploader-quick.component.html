@@ -1,0 +1,29 @@
+
+<div class="col-lg-12 col-sm-12 col-sm-12" style="margin: 1%; text-align: center">
+
+<span> <h1>  Image Preview and Uplade simple example</h1> </span>
+
+</div>
+
+<div class="col-lg-12 col-sm-12 col-sm-12" style="padding-left: 40%;">
+    <div class=" " style="    box-shadow: 10px 10px 30px gray;  height: 350px;  width: 300px;   border-radius: 6px; margin-bottom: 1px;">
+
+           
+ 
+                
+
+                    <input type="image" class=" img-responsive" id="image" src="../app/img/plus.png" style=" border: 1px dotted #c3c3c3;  height: 300px" />
+                    <div class="center-block">
+                        <input type="file"  accept="image/*" class="btn btn-default btn-file"  (change)="fileChangeEvent($event)"  style=" width:100%" >
+                    </div>
+
+            
+
+
+
+    </div>
+
+    <button (click)="uploadimage()" class="btn btn-success btn-lg " style="width: 300px; ">{{text}}</button>
+
+</div>
+
