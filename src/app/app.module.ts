@@ -1,3 +1,4 @@
+import { BootstrapTemplateComponent } from './bootstrap-template/bootstrap-template.component';
 import { NgModule } from '@angular/core'
 import { RouterModule } from '@angular/router';
 import { rootRouterConfig } from './app.routes';
@@ -12,7 +13,8 @@ import { ImageUploaderQuickComponent } from './image-uploader-quick/image-upload
   declarations: [
     AppComponent,
     HomeComponent,
-    ImageUploaderQuickComponent
+    ImageUploaderQuickComponent,
+    BootstrapTemplateComponent
     
   
   ],
